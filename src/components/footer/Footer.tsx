@@ -10,8 +10,8 @@ function Footer() {
                     <p className="text-lg font-bold">Blog Pessoal Josiane | Copyright: {data}</p>
                     <p className="text-lg">Acesse minhas redes sociais</p>
                     <div className="flex gap-4 pt-1">
-                        <a className="hover:text-[#00d6ff]" href="https://www.linkedin.com/in/josiane-fermao/" target="_blank"><LinkedinLogo size={48} weight='regular' /></a>
-                        <a className="hover:text-[#00d6ff]" href="https://github.com/josifermaodev" target="_blank"><GithubLogo size={48} weight='regular' /></a>
+                        <a className="hover:text-[#00747a]" href="https://www.linkedin.com/in/josiane-fermao/" target="_blank"><LinkedinLogo size={48} weight='regular' /></a>
+                        <a className="hover:text-[#00747a]" href="https://github.com/josifermaodev" target="_blank"><GithubLogo size={48} weight='regular' /></a>
                     </div>
                 </div>
                 

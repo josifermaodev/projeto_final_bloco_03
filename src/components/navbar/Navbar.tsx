@@ -16,15 +16,15 @@ function Navbar() {
                         <div className="relative w-[100vw]">
                             <input type="text" id="simple-search" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#00969d] focus:border-[#00969d] block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#00969d] dark:focus:border-[#00969d]" placeholder="Pesquisar Jogo" required />
                         </div>
-                        <button type="submit" className="inline-flex items-center p-2.5 ms-2 text-sm font-medium  text-white bg-gradient-to-r from-[#00ffff] to-[#00969d] hover:from-[#00ffff] hover:to-[#00969d] focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:from-[#00ffff] dark:hover:to-[#00969d] dark:focus:ring-blue-800 rounded-full">
+                        <button type="submit" className="inline-flex items-center p-2.5 ms-2 text-sm font-medium text-white bg-gradient-to-r from-[#00ffff] to-[#00969d] hover:brightness-90 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:brightness-90 dark:focus:ring-blue-800 rounded-full">
                             <MagnifyingGlass size={20}/>
                         </button>
                     </form>
                 </div>
                 <div>
                     <nav className="flex gap-4 ">
-                        <User size={32} />
-                        <ShoppingCartSimple size={32} />
+                        <User size={32} className="hover:text-[#00747a]"/>
+                        <ShoppingCartSimple size={32} className="hover:text-[#00747a]"/>
                     </nav>
                 </div>
             </div>
