@@ -1,7 +1,7 @@
 import axios, { AxiosRequestConfig } from "axios";
 
 const api = axios.create({
-    baseURL: 'https://farmacia-nest-t0o5.onrender.com/'
+    baseURL: import.meta.env.VITE_API_URL
 })
 
 
